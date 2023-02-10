@@ -9,12 +9,12 @@ function genRandomNum() {
 btn.addEventListener('click',function(){
     let input = document.getElementById('guess').value;
     if (input == num) {
-        output.innerHTML = 'Guessed right!!'
+        output.innerHTML = 'Hot'
     }else if(input<num){
         output.innerHTML = 'Cold'
     }
     if(input>num){
-        output.innerHTML='Hot'
+        output.innerHTML='Cold'
     }
 });
 
