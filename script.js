@@ -11,10 +11,10 @@ btn.addEventListener('click',function(){
     if (input == num) {
         output.innerHTML = 'Guessed right!!'
     }else if(input<num){
-        output.innerHTML = 'Hot'
+        output.innerHTML = 'Cold'
     }
     if(input>num){
-        output.innerHTML='Cold'
+        output.innerHTML='Hot'
     }
 });
 
