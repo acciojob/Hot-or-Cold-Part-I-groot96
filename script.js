@@ -8,7 +8,7 @@ function genRandomNum() {
 
 btn.addEventListener('click',function(){
     let input = document.getElementById('guess').value;
-    if (math.abs(input) == math.abs(num)) {
+    if (input == num) {
         output.innerHTML = 'Hot'
     }else{
         output.innerHTML('Cold')
