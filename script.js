@@ -10,10 +10,12 @@ btn.addEventListener('click',function(){
     let input = document.getElementById('guess').value;
     if (input == num) {
         output.innerHTML = 'Hot'
-    }else{
-        output.innerHTML('Cold')
+    }else if(input<num){
+        output.innerHTML = 'Cold'
     }
-    
+    if(input>num){
+        output.innerHTML='Cold'
+    }
 });
 
 
